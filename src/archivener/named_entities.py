@@ -21,7 +21,7 @@ class Manifest:
         if self._graph is None:
             self._graph = graphs.Graph()
             for canvas in self.canvases:
-                self._graph.graph
+                self._graph.graph += canvas.graph.graph
         return self._graph
 
     @property
