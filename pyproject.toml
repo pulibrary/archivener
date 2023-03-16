@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "archivener"
+version = "0.1.0"
+description = ""
+authors = ["cwulfman <cwulfman@princeton.edu>"]
+readme = "README.md"
+packages = [
+  {include = "archivener", from = "src"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytesseract = "^0.3.10"
+pillow = "^9.4.0"
+pandas = "^1.5.3"
+requests = "^2.28.2"
+spacy = "^3.5.0"
+iiif-resources = { git = "git@github.com:pulibrary/iiif-resources.git", branch = "main" }
+ocr-tools = { git = "git@github.com:pulibrary/ocr_tools.git", branch="main" }
+shortuuid = "^1.0.11"
+
+[tool.poetry.group.dev.dependencies]
+pyright = "^1.1.298"
+pytest = "^7.2.2"
+black = "^23.1.0"
+flake8 = "^6.0.0"
+isort = "^5.12.0"
+pytest-watch = "^4.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
