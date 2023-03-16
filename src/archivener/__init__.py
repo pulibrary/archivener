@@ -15,7 +15,7 @@ uri = 'https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-
 
 
 class Ner:
-    def __init__(self, canvas: Canvas, model):
+    def __init__(self, canvas: Canvas, model: spacy.language):
         self.canvas = canvas
         self.model = model
         self._doc = None
