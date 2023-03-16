@@ -1,2 +1,2 @@
-from .ner import Ner
-from .ner_graph import NerGraph, PersonGraph
+from .resources import Manifest, Canvas
+from .graphs import Graph, Person

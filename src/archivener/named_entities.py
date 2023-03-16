@@ -1,34 +1,55 @@
-from iiif.resources import ResourceFactory, Manifest
-from ner import Ner
-from ner_graph import NerGraph, PersonGraph
+from typing import Union
+import iiif.resources as iiif
+import archivener.graphs as graphs
+import archivener.resources as resources
 import spacy
 
 
-class NamedEntities:
+class Manifest:
     def __init__(self, manifest_uri: str, model: spacy.language.Language):
         self.model = model
-        factory = ResourceFactory()
+        factory = iiif.ResourceFactory()
         self.manifest = factory.manifest(manifest_uri)
-        self._canvases = None
+        self._canvases: Union[list[Canvas], None] = None
+        self._graph: Union[graphs.Graph, None] = None
+
+    def __repr__(self) -> str:
+        return f"Graph_Manifest({self.manifest.label})"
+
+    @property
+    def graph(self):
+        if self._graph is None:
+            self._graph = graphs.Graph()
+            for canvas in self.canvases:
+                self._graph.graph
+        return self._graph
 
     @property
     def canvases(self):
         if self._canvases is None:
-            self._canvases = [
-                Ner(canvas, self.model)
-                for canvas in self.manifest.sequences[0].canvases
-            ]
+            self._canvases = []
+            for canvas in self.manifest.sequences[0].canvases:
+                g_canvas = resources.Canvas(canvas, model)
+                self._canvases.append(Canvas(g_canvas))
         return self._canvases
 
-    def canvas_persons(self, canvas_ner):
-        canvas_graph = NerGraph()
-        g = canvas_graph.graph
+
+class Canvas:
+    def __init__(self, canvas: resources.Canvas):
+        self.canvas = canvas
+        self._graph: Union[graphs.Graph, None] = None
+
+    @property
+    def graph(self):
+        if self._graph is None:
+            self._graph = graphs.Graph()
+            for person in self.canvas.people:
+                self._graph.graph += graphs.Person(person).graph
+        return self._graph
 
 
 sample_manifest_uri = 'https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest'
 
 model = spacy.load('en_core_web_sm')
 
-ne = NamedEntities(sample_manifest_uri, model)
-c = ne.canvases[1]
-people = [PersonGraph(person) for person in c.persons]
+manifest = Manifest(sample_manifest_uri, model)
