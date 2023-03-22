@@ -48,7 +48,7 @@ class Person(Graph):
     def __init__(self, ent: Span):
         super().__init__()
         self.ent = ent
-        self.name = re.sub('\W+', ' ', self.ent.text)
+        self.name = re.sub('\\W+', ' ', self.ent.text)
         self.id = self.gen_id("appellation")
         self.create()
 
