@@ -33,6 +33,10 @@ class Manifest:
                 self._canvases.append(Canvas(g_canvas))
         return self._canvases
 
+    def serialize(self, path):
+        with open(path, 'wb') as f:
+            self.graph.serialize(f)
+
 
 class Canvas:
     def __init__(self, canvas: resources.Canvas):

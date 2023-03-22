@@ -38,6 +38,9 @@ class Graph:
     def serialize(
         self, path: Union[str, Path, IO[bytes], None] = None, format: str = "ttl"
     ):
+        import pdb
+
+        pdb.set_trace()
         if path == None:
             self.graph.serialize(format=format)
         else:
