@@ -1,6 +1,6 @@
 from typing import Optional
 import typer
-import argparse, logging
+import logging
 from archivener.named_entities import Manifest
 import spacy
 
@@ -20,5 +20,5 @@ def graph(uri: str, dest: str):
     manifest.serialize(dest)
 
 
-if __name__ == '__main__':
+def main():
     app()
