@@ -38,9 +38,6 @@ class Graph:
     def serialize(
         self, path: Union[str, Path, IO[bytes], None] = None, format: str = "ttl"
     ):
-        import pdb
-
-        pdb.set_trace()
         if path == None:
             self.graph.serialize(format=format)
         else:
@@ -51,7 +48,7 @@ class Person(Graph):
     def __init__(self, ent: Span):
         super().__init__()
         self.ent = ent
-        self.name = re.sub('\\W+', ' ', self.ent.text)
+        self.name = re.sub(r'\W+', ' ', self.ent.text)
         self.id = self.gen_id("appellation")
         self.create()
 
