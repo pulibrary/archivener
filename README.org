@@ -1,0 +1,11 @@
+#+title: Archivener
+#+date: <2023-03-23 Thu>
+#+author: Clifford Wulfman
+
+* Archivener: Named-Entity Recognition for Archival Materials
+This project explores developing tools to perform named-entity recogntion (NER) on the uncorrected output of OCR on pages of archival materials.
+
+** Design
+This implementation uses dependency injection to endow IIIF Presentation Layer objects with additional properties and methods.
+
+The first layer (the iiif-resources module) models the IIIF Manifest and Canvas objects as RDF graphs (they are, natively, JSON-LD objects, so this is simply convenience).  The next layer couples a IIIF Manifest object with an OCR object and a SpaCy language model.  These Manifests and Canvases have different properties from the lower-level IIIF Presentation objects: Canvases at this level have an "entities" property, which is computed in the class by performing OCR on the Canvas's resource (a URI for an image) and running the resulting text through the SpaCy model.  The third-level Manifest and Canvas objects wrap those resource objects in objects that are able to express SpaCy's entities as CIDOC-CRM graphs.
