@@ -20,21 +20,5 @@ def graph(uri: str, dest: str):
     manifest.serialize(dest)
 
 
-@app.command()
-def hello(name: Optional[str] = typer.Argument(None)):
-    if name is None:
-        print("Hello, everybody")
-    else:
-        print(f"Hello, {name}")
-
-
-@app.command()
-def goodbye(name: str, formal: bool = False):
-    if formal:
-        print(f"Goodbye, Ms {name}")
-    else:
-        print(f"Bye, {name}")
-
-
 if __name__ == '__main__':
     app()
