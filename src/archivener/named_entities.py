@@ -9,7 +9,7 @@ class Manifest:
     def __init__(self, manifest_uri: str, model: spacy.language.Language):
         self.model = model
         factory = iiif.ResourceFactory()
-        self.manifest = factory.manifest(manifest_uri)
+        self.manifest: iiif.Manifest = factory.manifest(manifest_uri)
         self._canvases: Union[list[Canvas], None] = None
         self._graph: Union[graphs.Graph, None] = None
 
@@ -47,8 +47,7 @@ class Canvas:
     def graph(self):
         if self._graph is None:
             self._graph = graphs.Graph()
-            for person in self.canvas.people:
-                self._graph.graph += graphs.Person(person).graph
+            self._graph.graph += graphs.Canvas(self.canvas).graph
         return self._graph
 
     @property

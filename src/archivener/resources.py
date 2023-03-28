@@ -13,6 +13,10 @@ class Manifest:
         return f"Resource_Manifest({self.manifest.label})"
 
     @property
+    def id(self):
+        return self.manifest.id
+
+    @property
     def canvases(self):
         if self._canvases is None:
             self._canvases = [
@@ -30,6 +34,13 @@ class Canvas:
         self.canvas = canvas
         self.model = model
         self._doc = None
+
+    @property
+    def id(self):
+        return self.canvas.id
+
+    def __repr__(self) -> str:
+        return f"Resource_Canvas({self.id})"
 
     @property
     def doc(self):
