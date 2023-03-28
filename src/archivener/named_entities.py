@@ -51,6 +51,14 @@ class Canvas:
                 self._graph.graph += graphs.Person(person).graph
         return self._graph
 
+    @property
+    def graph_old(self):
+        if self._graph is None:
+            self._graph = graphs.Graph()
+            for person in self.canvas.people:
+                self._graph.graph += graphs.Person(person).graph
+        return self._graph
+
 
 sample_manifest_uri = 'https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest'
 

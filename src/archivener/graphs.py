@@ -4,8 +4,11 @@ import rdflib
 from rdflib.namespace._RDF import RDF
 from rdflib.namespace._RDFS import RDFS
 from typing import Union, IO
+from rdflib.term import URIRef
 from shortuuid import uuid
 from spacy.tokens.span import Span
+
+from archivener import named_entities
 
 
 class Graph:
@@ -42,6 +45,13 @@ class Graph:
             self.graph.serialize(format=format)
         else:
             self.graph.serialize(destination=path, format=format)
+
+
+class Canvas(Graph):
+    def __init__(self, canvas: named_entities.Canvas):
+        super().__init__()
+        self.canvas = canvas
+        self.id = URIRef(self.canvas.id)
 
 
 class Person(Graph):
