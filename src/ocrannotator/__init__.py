@@ -27,9 +27,12 @@ class OcrAnnotator:
         for prefix, namespace in self.namespaces.items():
             self.graph.bind(prefix, namespace)
 
-    def annotate(self):
+    def ocr(self):
         for canvas in self.manifest.sequences[0].canvases:
             self.ocr_canvas(canvas)
+
+    def annotate(self):
+        for canvas in self.manifest.sequences[0].canvases:
             self.annotate_canvas(canvas)
 
     def namespace(self, prefix):
