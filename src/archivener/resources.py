@@ -1,3 +1,12 @@
+""" resources.py  A wrapper around iiif.resources classes
+
+iiif.resources themselves are wrappers around the iiif Presentation
+model.
+
+These classes add new methods and properties related to SpaCy classes
+and FRBRoo classes
+"""
+
 import spacy
 from ocr import Tesseract
 import iiif.resources as iiif
@@ -9,12 +18,16 @@ class Manifest:
         self.model = model
         self._canvases = None
 
-    def __repr__(self) -> str:
-        return f"Resource_Manifest({self.manifest.label})"
+    @property
+    def label(self):
+        return self.manifest.label
 
     @property
     def id(self):
         return self.manifest.id
+
+    def __repr__(self) -> str:
+        return f"Resource_Manifest({self.label})"
 
     @property
     def canvases(self):
@@ -39,13 +52,25 @@ class Canvas:
     def id(self):
         return self.canvas.id
 
+    @property
+    def label(self):
+        return self.canvas.label
+
+    @property
+    def name(self) -> str:
+        return self.canvas.name
+
+    @property
+    def images(self):
+        return self.canvas.images
+
     def __repr__(self) -> str:
-        return f"Resource_Canvas({self.id})"
+        return f"Resource_Canvas({self.label})"
 
     @property
     def doc(self):
         if self._doc is None:
-            image_uri = self.canvas.images[0].resource
+            image_uri = self.images[0].resource
             ocr = Tesseract(image_uri)
             self._doc = self.model(ocr.string)
         return self._doc
@@ -55,5 +80,5 @@ class Canvas:
         return self.doc.ents
 
     @property
-    def people(self):
+    def persnames(self):
         return filter(lambda e: e.label_ == "PERSON", self.doc.ents)

@@ -7,8 +7,10 @@ from typing import Union, IO
 from rdflib.term import URIRef, Literal
 from shortuuid import uuid
 from spacy.tokens.span import Span
+import iiif.resources as iiif
+import spacy
 
-from archivener import named_entities, resources
+from archivener import resources
 
 
 class Graph:
@@ -28,9 +30,12 @@ class Graph:
     }
 
     def __init__(self):
-        self.graph = rdflib.Graph()
+        self._graph = None
+
+    def init_graph(self):
+        self._graph = rdflib.Graph()
         for prefix, namespace in self.namespaces.items():
-            self.graph.bind(prefix, namespace)
+            self._graph.bind(prefix, namespace)
 
     def namespace(self, prefix):
         return self.namespaces[prefix]
@@ -47,49 +52,85 @@ class Graph:
             self.graph.serialize(destination=path, format=format)
 
 
+class Manifest(Graph):
+    def __init__(self, manifest_uri: str, model: spacy.language.Language):
+        super().__init__()
+        iiif_manifest = iiif.ResourceFactory().manifest(manifest_uri)
+        self.manifest = resources.Manifest(iiif_manifest, model)
+        self._canvases = None
+
+    @property
+    def label(self):
+        return self.manifest.label
+
+    @property
+    def id(self):
+        return self.manifest.id
+
+    @property
+    def canvases(self):
+        if self._canvases is None:
+            self._canvases = []
+            for canvas in self.manifest.canvases:
+                self._canvases.append(Canvas(canvas))
+        return self._canvases
+
+    @property
+    def graph(self):
+        if self._graph is None:
+            self.init_graph()
+            for canvas in self.canvases:
+                self._graph += canvas.graph
+
+
 class Canvas(Graph):
     def __init__(self, canvas: resources.Canvas):
         super().__init__()
         self.canvas = canvas
         self.id = URIRef(self.canvas.id)
-        self.create()
 
-    def create(self):
-        people = self.canvas.people
-        for person in people:
-            name = re.sub(r'\W+', ' ', person.text)
+    @property
+    def graph(self):
+        if self._graph is None:
+            self.init_graph()
+            self.create_graph()
+        return self._graph
+
+    def create_graph(self):
+        self._graph.add((self.id, RDF.type, self.namespace('sc')['Canvas']))
+        self._graph.add((self.id, RDFS.label, self.canvas.label))
+
+        persnames = self.canvas.persnames
+        for persname in persnames:
+            name = re.sub(r'\W+', ' ', persname.text)
             inscription_id = self.gen_id("inscription")
             appellation_id = self.gen_id("appellation")
-            self.graph.add(
+            self._graph.add(
                 (inscription_id, RDF.type, self.namespace("ecrm")["E34_Inscription"])
             )
-            self.graph.add((self.id, RDFS.label, Literal(name)))
-            self.graph.add(
+            # self._graph.add((self.id, RDFS.label, Literal(name)))
+            self._graph.add((inscription_id, RDFS.label, Literal(name)))
+            self._graph.add(
                 (
                     inscription_id,
                     self.namespace("ecrm")["P190_has_symbolic_content"],
                     Literal(name),
                 )
             )
-            self.graph.add(
+            self._graph.add(
                 (inscription_id, self.namespace("ecrm")["P128i_is_carried_by"], self.id)
             )
-            # self.graph.add(
-            #     (
-            #         inscription_id,
-            #         self.namespace("ecrm")["P106_is_composed_of"],
-            #         appellation_id,
-            #     )
-            # )
-            self.graph.add(
+
+            self._graph.add(
                 (
                     inscription_id,
                     self.namespace("ecrm")["E55_Type"],
-                    Literal(person.label_),
+                    Literal(persname.label_),
                 )
             )
 
 
+# deprecated?
 class Person(Graph):
     def __init__(self, ent: Span):
         super().__init__()
