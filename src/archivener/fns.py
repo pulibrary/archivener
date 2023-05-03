@@ -2,9 +2,23 @@ from functools import partial
 import re
 from typing import List, Optional
 import spacy
+import requests
 from ocr import Tesseract
 import iiif.resources as iiif
-from rdflib import Namespace, Graph, URIRef, Literal, RDF, RDFS
+from rdflib import (
+    Namespace,
+    Graph,
+    URIRef,
+    Literal,
+    RDF,
+    RDFS,
+    DC,
+    DCTERMS,
+    DCMITYPE,
+    DOAP,
+    FOAF,
+    XSD,
+)
 from shortuuid import uuid
 
 CRM = Namespace("http://erlangen-crm.org/200717/")
@@ -73,6 +87,7 @@ def canvas_graph(canvas: iiif.Canvas, model: Optional[spacy.lang] = None) -> Gra
 def manifest_graph(manifest_uri: str, model: Optional[spacy.lang] = None) -> Graph:
     manifest: iiif.Manifest = iiif.ResourceFactory().manifest(manifest_uri)
     g: Graph = archivener_graph()
+    g.parse(manifest_uri, format="json-ld")
     if model is None:
         model = spacy.load('en_core_web_sm')
     for canvas in manifest.sequences[0].canvases:
