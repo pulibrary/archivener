@@ -1,0 +1,1093 @@
+_:b0    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>  "undated" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Date Created" .
+
+_:b1    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>  "1 folder" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Extent" .
+
+_:b2    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>  "ark:/88435/ks65hj40n" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Identifier" .
+
+_:b3    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>  "Index of Permanent Files" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Title" .
+
+_:b4    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>  "English" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Language" .
+
+_:b5    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>  "Kennan, George F. (George Frost), 1904-2005" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Publisher" .
+
+_:b6    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>  "Box 1, Folder 1" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Container" .
+
+_:b7    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>  "George F. Kennan Papers MC076" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Member Of Collections" .
+
+<http://arks.princeton.edu/ark:/88435/ks65hj40n>
+        <http://purl.org/dc/elements/1.1/format>  "text/html" .
+
+<https://figgy.princeton.edu/catalog/a3b5a622-8608-4a05-91cb-bc3840a44ef9.jsonld>
+        <http://purl.org/dc/elements/1.1/format>  "application/ld+json" .
+
+<https://figgy.princeton.edu/catalog/a3b5a622-8608-4a05-91cb-bc3840a44ef9/iiif_search>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/search/0/search> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Search within this item" .
+
+<https://figgy.princeton.edu/catalog/a3b5a622-8608-4a05-91cb-bc3840a44ef9/pdf>
+        <http://purl.org/dc/elements/1.1/format>  "application/pdf" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download as PDF" .
+
+<https://figgy.princeton.edu/concern/file_sets/0d52476e-098e-4022-97af-4a70320fa4ca/text>
+        <http://purl.org/dc/elements/1.1/format>  "text/plain" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download page text" .
+
+<https://figgy.princeton.edu/concern/file_sets/140f97b6-8784-488e-aef0-673408c62b56/text>
+        <http://purl.org/dc/elements/1.1/format>  "text/plain" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download page text" .
+
+<https://figgy.princeton.edu/concern/file_sets/1c6028da-a6f1-4e69-8424-94f6a6566c95/text>
+        <http://purl.org/dc/elements/1.1/format>  "text/plain" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download page text" .
+
+<https://figgy.princeton.edu/concern/file_sets/1ec6568f-d254-4de7-985f-f31edf67a53c/text>
+        <http://purl.org/dc/elements/1.1/format>  "text/plain" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download page text" .
+
+<https://figgy.princeton.edu/concern/file_sets/26d6a58b-f68e-4848-952d-b97a239a4cef/text>
+        <http://purl.org/dc/elements/1.1/format>  "text/plain" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download page text" .
+
+<https://figgy.princeton.edu/concern/file_sets/28445052-12bf-432d-a040-bbc96ce02a7b/text>
+        <http://purl.org/dc/elements/1.1/format>  "text/plain" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download page text" .
+
+<https://figgy.princeton.edu/concern/file_sets/2ae6db12-575c-4708-a8a9-8b8408c171b7/text>
+        <http://purl.org/dc/elements/1.1/format>  "text/plain" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download page text" .
+
+<https://figgy.princeton.edu/concern/file_sets/496c6a41-f304-4633-a50e-72810da63c17/text>
+        <http://purl.org/dc/elements/1.1/format>  "text/plain" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download page text" .
+
+<https://figgy.princeton.edu/concern/file_sets/4fd565fb-3ef7-42a0-bea1-661d25c867bd/text>
+        <http://purl.org/dc/elements/1.1/format>  "text/plain" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download page text" .
+
+<https://figgy.princeton.edu/concern/file_sets/50c3d206-8f32-4ef4-9ac3-2c3dd717c3f3/text>
+        <http://purl.org/dc/elements/1.1/format>  "text/plain" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download page text" .
+
+<https://figgy.princeton.edu/concern/file_sets/58a6ff35-567c-4b32-9831-06a288bacf3a/text>
+        <http://purl.org/dc/elements/1.1/format>  "text/plain" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download page text" .
+
+<https://figgy.princeton.edu/concern/file_sets/65df03ce-46c7-47ce-89c6-1c17bf492f4d/text>
+        <http://purl.org/dc/elements/1.1/format>  "text/plain" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download page text" .
+
+<https://figgy.princeton.edu/concern/file_sets/70c4e5a3-ffe2-444a-848a-63766289f78f/text>
+        <http://purl.org/dc/elements/1.1/format>  "text/plain" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download page text" .
+
+<https://figgy.princeton.edu/concern/file_sets/80bd4131-f68e-4b23-b039-06455a53f747/text>
+        <http://purl.org/dc/elements/1.1/format>  "text/plain" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download page text" .
+
+<https://figgy.princeton.edu/concern/file_sets/8a384bbe-899f-4982-88ec-bbb3d7eeca24/text>
+        <http://purl.org/dc/elements/1.1/format>  "text/plain" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download page text" .
+
+<https://figgy.princeton.edu/concern/file_sets/8af67641-f241-461c-8361-3090cfd8ff53/text>
+        <http://purl.org/dc/elements/1.1/format>  "text/plain" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download page text" .
+
+<https://figgy.princeton.edu/concern/file_sets/8f580f14-1f15-4402-978d-47aa15b99dcc/text>
+        <http://purl.org/dc/elements/1.1/format>  "text/plain" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download page text" .
+
+<https://figgy.princeton.edu/concern/file_sets/9b8d3638-fb4c-41b7-b84c-f90d41a38feb/text>
+        <http://purl.org/dc/elements/1.1/format>  "text/plain" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download page text" .
+
+<https://figgy.princeton.edu/concern/file_sets/9bcd02e7-55ab-46eb-b633-40d367ccd5e8/text>
+        <http://purl.org/dc/elements/1.1/format>  "text/plain" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download page text" .
+
+<https://figgy.princeton.edu/concern/file_sets/9e880d69-731f-4d72-a4dd-3c2588492cfd/text>
+        <http://purl.org/dc/elements/1.1/format>  "text/plain" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download page text" .
+
+<https://figgy.princeton.edu/concern/file_sets/a3951193-27b2-4e06-a690-ebb9c85453c8/text>
+        <http://purl.org/dc/elements/1.1/format>  "text/plain" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download page text" .
+
+<https://figgy.princeton.edu/concern/file_sets/d3f6a3f2-5260-4c55-aa78-c1e8af1c506d/text>
+        <http://purl.org/dc/elements/1.1/format>  "text/plain" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download page text" .
+
+<https://figgy.princeton.edu/concern/file_sets/d45e3cdc-f2e7-45b2-842e-06f6e7c60554/text>
+        <http://purl.org/dc/elements/1.1/format>  "text/plain" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download page text" .
+
+<https://figgy.princeton.edu/concern/file_sets/fe61ac61-faa5-4aea-8748-9e6dbb99d2b1/text>
+        <http://purl.org/dc/elements/1.1/format>  "text/plain" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download page text" .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest>
+        a       <http://iiif.io/api/presentation/2#Manifest> ;
+        <http://iiif.io/api/presentation/2#hasRanges>  _:b8 .
+
+_:b8    <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/range/r326547cc-3366-48cc-aa82-883a7f03eb4c> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest>
+        <http://iiif.io/api/presentation/2#hasSequences>  _:b9 .
+
+_:b9    <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/sequence/normal> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest>
+        <http://iiif.io/api/presentation/2#metadataLabels>  _:b10 .
+
+_:b10   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  _:b0 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b11 .
+
+_:b11   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  _:b1 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b12 .
+
+_:b12   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  _:b2 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b13 .
+
+_:b13   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  _:b3 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b14 .
+
+_:b14   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  _:b4 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b15 .
+
+_:b15   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  _:b5 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b16 .
+
+_:b16   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  _:b6 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b17 .
+
+_:b17   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  _:b7 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest>
+        <http://iiif.io/api/presentation/2#viewingHint>  <http://iiif.io/api/presentation/2#individualsHint> ;
+        <http://purl.org/dc/terms/hasFormat>  <http://arks.princeton.edu/ark:/88435/ks65hj40n> ;
+        <http://purl.org/dc/terms/rights>  <http://rightsstatements.org/vocab/NKC/1.0/> ;
+        <http://rdfs.org/sioc/services#has_service>  <https://figgy.princeton.edu/catalog/a3b5a622-8608-4a05-91cb-bc3840a44ef9/iiif_search> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Index of Permanent Files" ;
+        <http://www.w3.org/2000/01/rdf-schema#seeAlso>  <https://figgy.princeton.edu/catalog/a3b5a622-8608-4a05-91cb-bc3840a44ef9.jsonld> ;
+        <http://www.w3.org/2000/01/rdf-schema#seeAlso>  <https://findingaids.princeton.edu/catalog/MC076_c00003.xml> ;
+        <http://xmlns.com/foaf/0.1/logo>  <https://figgy.princeton.edu/assets/pul_logo_icon-5333765252f2b86e34cd7c096c97e79495fe4656c5f787c5510a84ee6b67afd8.png> ;
+        <http://xmlns.com/foaf/0.1/thumbnail>  <https://iiif-cloud.princeton.edu/iiif/2/33%2F4f%2F82%2F334f828b1c7f44ecb18c7c0d55fec740%2Fintermediate_file/full/!200,150/0/default.jpg> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/0d52476e-098e-4022-97af-4a70320fa4ca>
+        a       <http://iiif.io/api/presentation/2#Canvas> ;
+        <http://iiif.io/api/presentation/2#hasImageAnnotations>  _:b18 .
+
+_:b18   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/0d52476e-098e-4022-97af-4a70320fa4ca> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/0d52476e-098e-4022-97af-4a70320fa4ca>
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/concern/file_sets/0d52476e-098e-4022-97af-4a70320fa4ca/text> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/downloads/0d52476e-098e-4022-97af-4a70320fa4ca/file/b603aede-e8b0-4640-82fd-5e5270a1b019> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "18" ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4707 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3685 .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/140f97b6-8784-488e-aef0-673408c62b56>
+        a       <http://iiif.io/api/presentation/2#Canvas> ;
+        <http://iiif.io/api/presentation/2#hasImageAnnotations>  _:b19 .
+
+_:b19   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/140f97b6-8784-488e-aef0-673408c62b56> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/140f97b6-8784-488e-aef0-673408c62b56>
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/concern/file_sets/140f97b6-8784-488e-aef0-673408c62b56/text> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/downloads/140f97b6-8784-488e-aef0-673408c62b56/file/dba20852-29d7-4f77-ba3c-0a6351b3e1f6> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "3" ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4718 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3687 .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/1c6028da-a6f1-4e69-8424-94f6a6566c95>
+        a       <http://iiif.io/api/presentation/2#Canvas> ;
+        <http://iiif.io/api/presentation/2#hasImageAnnotations>  _:b20 .
+
+_:b20   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/1c6028da-a6f1-4e69-8424-94f6a6566c95> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/1c6028da-a6f1-4e69-8424-94f6a6566c95>
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/concern/file_sets/1c6028da-a6f1-4e69-8424-94f6a6566c95/text> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/downloads/1c6028da-a6f1-4e69-8424-94f6a6566c95/file/6588d878-4f16-420d-9e83-61bb68b005a2> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "9" ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4709 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3686 .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/1ec6568f-d254-4de7-985f-f31edf67a53c>
+        a       <http://iiif.io/api/presentation/2#Canvas> ;
+        <http://iiif.io/api/presentation/2#hasImageAnnotations>  _:b21 .
+
+_:b21   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/1ec6568f-d254-4de7-985f-f31edf67a53c> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/1ec6568f-d254-4de7-985f-f31edf67a53c>
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/concern/file_sets/1ec6568f-d254-4de7-985f-f31edf67a53c/text> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/downloads/1ec6568f-d254-4de7-985f-f31edf67a53c/file/71149208-e736-4b3e-ad32-e7562602fa22> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "12" ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4712 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3687 .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/26d6a58b-f68e-4848-952d-b97a239a4cef>
+        a       <http://iiif.io/api/presentation/2#Canvas> ;
+        <http://iiif.io/api/presentation/2#hasImageAnnotations>  _:b22 .
+
+_:b22   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/26d6a58b-f68e-4848-952d-b97a239a4cef> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/26d6a58b-f68e-4848-952d-b97a239a4cef>
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/concern/file_sets/26d6a58b-f68e-4848-952d-b97a239a4cef/text> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/downloads/26d6a58b-f68e-4848-952d-b97a239a4cef/file/ed1fa5bb-3d3f-4d97-8484-97203ee1063c> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "8" ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4713 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3689 .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/28445052-12bf-432d-a040-bbc96ce02a7b>
+        a       <http://iiif.io/api/presentation/2#Canvas> ;
+        <http://iiif.io/api/presentation/2#hasImageAnnotations>  _:b23 .
+
+_:b23   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/28445052-12bf-432d-a040-bbc96ce02a7b> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/28445052-12bf-432d-a040-bbc96ce02a7b>
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/concern/file_sets/28445052-12bf-432d-a040-bbc96ce02a7b/text> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/downloads/28445052-12bf-432d-a040-bbc96ce02a7b/file/36fd6ccc-06d4-4f69-9a6b-6a75338e095d> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "20" ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4717 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3687 .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/2ae6db12-575c-4708-a8a9-8b8408c171b7>
+        a       <http://iiif.io/api/presentation/2#Canvas> ;
+        <http://iiif.io/api/presentation/2#hasImageAnnotations>  _:b24 .
+
+_:b24   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/2ae6db12-575c-4708-a8a9-8b8408c171b7> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/2ae6db12-575c-4708-a8a9-8b8408c171b7>
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/concern/file_sets/2ae6db12-575c-4708-a8a9-8b8408c171b7/text> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/downloads/2ae6db12-575c-4708-a8a9-8b8408c171b7/file/5028e3a4-df6d-4527-b44e-db21a81324b9> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "1" ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4700 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3677 .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/496c6a41-f304-4633-a50e-72810da63c17>
+        a       <http://iiif.io/api/presentation/2#Canvas> ;
+        <http://iiif.io/api/presentation/2#hasImageAnnotations>  _:b25 .
+
+_:b25   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/496c6a41-f304-4633-a50e-72810da63c17> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/496c6a41-f304-4633-a50e-72810da63c17>
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/concern/file_sets/496c6a41-f304-4633-a50e-72810da63c17/text> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/downloads/496c6a41-f304-4633-a50e-72810da63c17/file/7e573bc5-c88e-4d22-85a2-d5b029021618> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "10" ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4715 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3688 .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/4fd565fb-3ef7-42a0-bea1-661d25c867bd>
+        a       <http://iiif.io/api/presentation/2#Canvas> ;
+        <http://iiif.io/api/presentation/2#hasImageAnnotations>  _:b26 .
+
+_:b26   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/4fd565fb-3ef7-42a0-bea1-661d25c867bd> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/4fd565fb-3ef7-42a0-bea1-661d25c867bd>
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/concern/file_sets/4fd565fb-3ef7-42a0-bea1-661d25c867bd/text> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/downloads/4fd565fb-3ef7-42a0-bea1-661d25c867bd/file/44960985-252a-42f4-a7f4-35abddd500c7> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "16" ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4714 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3691 .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/50c3d206-8f32-4ef4-9ac3-2c3dd717c3f3>
+        a       <http://iiif.io/api/presentation/2#Canvas> ;
+        <http://iiif.io/api/presentation/2#hasImageAnnotations>  _:b27 .
+
+_:b27   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/50c3d206-8f32-4ef4-9ac3-2c3dd717c3f3> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/50c3d206-8f32-4ef4-9ac3-2c3dd717c3f3>
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/concern/file_sets/50c3d206-8f32-4ef4-9ac3-2c3dd717c3f3/text> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/downloads/50c3d206-8f32-4ef4-9ac3-2c3dd717c3f3/file/16255a57-4bf7-4130-83b5-2ad0218606a8> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "5" ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4711 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3680 .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/58a6ff35-567c-4b32-9831-06a288bacf3a>
+        a       <http://iiif.io/api/presentation/2#Canvas> ;
+        <http://iiif.io/api/presentation/2#hasImageAnnotations>  _:b28 .
+
+_:b28   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/58a6ff35-567c-4b32-9831-06a288bacf3a> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/58a6ff35-567c-4b32-9831-06a288bacf3a>
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/concern/file_sets/58a6ff35-567c-4b32-9831-06a288bacf3a/text> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/downloads/58a6ff35-567c-4b32-9831-06a288bacf3a/file/a7ec1cb7-7c82-43d9-b3dd-ef01150ef724> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "15" ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4708 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3682 .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/65df03ce-46c7-47ce-89c6-1c17bf492f4d>
+        a       <http://iiif.io/api/presentation/2#Canvas> ;
+        <http://iiif.io/api/presentation/2#hasImageAnnotations>  _:b29 .
+
+_:b29   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/65df03ce-46c7-47ce-89c6-1c17bf492f4d> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/65df03ce-46c7-47ce-89c6-1c17bf492f4d>
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/concern/file_sets/65df03ce-46c7-47ce-89c6-1c17bf492f4d/text> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/downloads/65df03ce-46c7-47ce-89c6-1c17bf492f4d/file/2febd703-5f5d-4470-adce-765c08c4013f> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "19" ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4708 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3687 .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/70c4e5a3-ffe2-444a-848a-63766289f78f>
+        a       <http://iiif.io/api/presentation/2#Canvas> ;
+        <http://iiif.io/api/presentation/2#hasImageAnnotations>  _:b30 .
+
+_:b30   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/70c4e5a3-ffe2-444a-848a-63766289f78f> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/70c4e5a3-ffe2-444a-848a-63766289f78f>
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/concern/file_sets/70c4e5a3-ffe2-444a-848a-63766289f78f/text> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/downloads/70c4e5a3-ffe2-444a-848a-63766289f78f/file/28097751-8a51-44b6-b1df-a08ec3302432> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "22" ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4707 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3685 .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/80bd4131-f68e-4b23-b039-06455a53f747>
+        a       <http://iiif.io/api/presentation/2#Canvas> ;
+        <http://iiif.io/api/presentation/2#hasImageAnnotations>  _:b31 .
+
+_:b31   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/80bd4131-f68e-4b23-b039-06455a53f747> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/80bd4131-f68e-4b23-b039-06455a53f747>
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/concern/file_sets/80bd4131-f68e-4b23-b039-06455a53f747/text> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/downloads/80bd4131-f68e-4b23-b039-06455a53f747/file/e0643a4f-72cd-485d-bec1-f2822bfa8f9d> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "21" ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4710 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3678 .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/8a384bbe-899f-4982-88ec-bbb3d7eeca24>
+        a       <http://iiif.io/api/presentation/2#Canvas> ;
+        <http://iiif.io/api/presentation/2#hasImageAnnotations>  _:b32 .
+
+_:b32   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/8a384bbe-899f-4982-88ec-bbb3d7eeca24> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/8a384bbe-899f-4982-88ec-bbb3d7eeca24>
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/concern/file_sets/8a384bbe-899f-4982-88ec-bbb3d7eeca24/text> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/downloads/8a384bbe-899f-4982-88ec-bbb3d7eeca24/file/1b2a3506-230f-4c17-8194-e67c1b051030> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "17" ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4703 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3689 .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/8af67641-f241-461c-8361-3090cfd8ff53>
+        a       <http://iiif.io/api/presentation/2#Canvas> ;
+        <http://iiif.io/api/presentation/2#hasImageAnnotations>  _:b33 .
+
+_:b33   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/8af67641-f241-461c-8361-3090cfd8ff53> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/8af67641-f241-461c-8361-3090cfd8ff53>
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/concern/file_sets/8af67641-f241-461c-8361-3090cfd8ff53/text> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/downloads/8af67641-f241-461c-8361-3090cfd8ff53/file/c9513b09-df26-4d70-97d9-e99cb83a71bf> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "13" ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4707 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3689 .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/8f580f14-1f15-4402-978d-47aa15b99dcc>
+        a       <http://iiif.io/api/presentation/2#Canvas> ;
+        <http://iiif.io/api/presentation/2#hasImageAnnotations>  _:b34 .
+
+_:b34   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/8f580f14-1f15-4402-978d-47aa15b99dcc> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/8f580f14-1f15-4402-978d-47aa15b99dcc>
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/concern/file_sets/8f580f14-1f15-4402-978d-47aa15b99dcc/text> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/downloads/8f580f14-1f15-4402-978d-47aa15b99dcc/file/7bb42c98-6b28-498e-b6f8-c53470ced981> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "11" ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4711 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3680 .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/9b8d3638-fb4c-41b7-b84c-f90d41a38feb>
+        a       <http://iiif.io/api/presentation/2#Canvas> ;
+        <http://iiif.io/api/presentation/2#hasImageAnnotations>  _:b35 .
+
+_:b35   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/9b8d3638-fb4c-41b7-b84c-f90d41a38feb> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/9b8d3638-fb4c-41b7-b84c-f90d41a38feb>
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/concern/file_sets/9b8d3638-fb4c-41b7-b84c-f90d41a38feb/text> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/downloads/9b8d3638-fb4c-41b7-b84c-f90d41a38feb/file/f6a845d8-9208-4e03-bac1-c4f3537224a9> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "2" ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4708 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3677 .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/9bcd02e7-55ab-46eb-b633-40d367ccd5e8>
+        a       <http://iiif.io/api/presentation/2#Canvas> ;
+        <http://iiif.io/api/presentation/2#hasImageAnnotations>  _:b36 .
+
+_:b36   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/9bcd02e7-55ab-46eb-b633-40d367ccd5e8> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/9bcd02e7-55ab-46eb-b633-40d367ccd5e8>
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/concern/file_sets/9bcd02e7-55ab-46eb-b633-40d367ccd5e8/text> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/downloads/9bcd02e7-55ab-46eb-b633-40d367ccd5e8/file/1a96f923-999e-4ed5-b593-6e9e40ba8d43> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "24" ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4704 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3685 .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/9e880d69-731f-4d72-a4dd-3c2588492cfd>
+        a       <http://iiif.io/api/presentation/2#Canvas> ;
+        <http://iiif.io/api/presentation/2#hasImageAnnotations>  _:b37 .
+
+_:b37   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/9e880d69-731f-4d72-a4dd-3c2588492cfd> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/9e880d69-731f-4d72-a4dd-3c2588492cfd>
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/concern/file_sets/9e880d69-731f-4d72-a4dd-3c2588492cfd/text> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/downloads/9e880d69-731f-4d72-a4dd-3c2588492cfd/file/d09f4cf4-ef7d-4894-b476-d71150d3fca7> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "4" ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4717 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3690 .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/a3951193-27b2-4e06-a690-ebb9c85453c8>
+        a       <http://iiif.io/api/presentation/2#Canvas> ;
+        <http://iiif.io/api/presentation/2#hasImageAnnotations>  _:b38 .
+
+_:b38   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/a3951193-27b2-4e06-a690-ebb9c85453c8> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/a3951193-27b2-4e06-a690-ebb9c85453c8>
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/concern/file_sets/a3951193-27b2-4e06-a690-ebb9c85453c8/text> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/downloads/a3951193-27b2-4e06-a690-ebb9c85453c8/file/0872f9be-61bb-4774-ba64-f665852c234c> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "7" ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4708 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3686 .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/d3f6a3f2-5260-4c55-aa78-c1e8af1c506d>
+        a       <http://iiif.io/api/presentation/2#Canvas> ;
+        <http://iiif.io/api/presentation/2#hasImageAnnotations>  _:b39 .
+
+_:b39   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/d3f6a3f2-5260-4c55-aa78-c1e8af1c506d> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/d3f6a3f2-5260-4c55-aa78-c1e8af1c506d>
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/concern/file_sets/d3f6a3f2-5260-4c55-aa78-c1e8af1c506d/text> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/downloads/d3f6a3f2-5260-4c55-aa78-c1e8af1c506d/file/aefeebb6-e3a7-4a66-a54a-6004469c627d> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "14" ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4714 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3685 .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/d45e3cdc-f2e7-45b2-842e-06f6e7c60554>
+        a       <http://iiif.io/api/presentation/2#Canvas> ;
+        <http://iiif.io/api/presentation/2#hasImageAnnotations>  _:b40 .
+
+_:b40   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/d45e3cdc-f2e7-45b2-842e-06f6e7c60554> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/d45e3cdc-f2e7-45b2-842e-06f6e7c60554>
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/concern/file_sets/d45e3cdc-f2e7-45b2-842e-06f6e7c60554/text> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/downloads/d45e3cdc-f2e7-45b2-842e-06f6e7c60554/file/1f81443f-b193-4c05-8867-d082c370eaff> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "23" ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4702 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3686 .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/fe61ac61-faa5-4aea-8748-9e6dbb99d2b1>
+        a       <http://iiif.io/api/presentation/2#Canvas> ;
+        <http://iiif.io/api/presentation/2#hasImageAnnotations>  _:b41 .
+
+_:b41   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/fe61ac61-faa5-4aea-8748-9e6dbb99d2b1> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/fe61ac61-faa5-4aea-8748-9e6dbb99d2b1>
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/concern/file_sets/fe61ac61-faa5-4aea-8748-9e6dbb99d2b1/text> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/downloads/fe61ac61-faa5-4aea-8748-9e6dbb99d2b1/file/c109ab3a-881f-4d5e-abb5-89fcea24d7ae> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "6" ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4716 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3687 .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/0d52476e-098e-4022-97af-4a70320fa4ca>
+        a       <http://www.w3.org/ns/oa#Annotation> ;
+        <http://www.w3.org/ns/oa#hasBody>  <https://iiif-cloud.princeton.edu/iiif/2/f1%2F5a%2Fa3%2Ff15aa340a29046a08e8700fb54512eab%2Fintermediate_file/full/1000,/0/default.jpg> ;
+        <http://www.w3.org/ns/oa#hasTarget>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/0d52476e-098e-4022-97af-4a70320fa4ca> ;
+        <http://www.w3.org/ns/oa#motivatedBy>  <http://iiif.io/api/presentation/2#painting> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/140f97b6-8784-488e-aef0-673408c62b56>
+        a       <http://www.w3.org/ns/oa#Annotation> ;
+        <http://www.w3.org/ns/oa#hasBody>  <https://iiif-cloud.princeton.edu/iiif/2/c6%2F77%2Fa7%2Fc677a7657ebc43cabc2bd01bced300e6%2Fintermediate_file/full/1000,/0/default.jpg> ;
+        <http://www.w3.org/ns/oa#hasTarget>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/140f97b6-8784-488e-aef0-673408c62b56> ;
+        <http://www.w3.org/ns/oa#motivatedBy>  <http://iiif.io/api/presentation/2#painting> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/1c6028da-a6f1-4e69-8424-94f6a6566c95>
+        a       <http://www.w3.org/ns/oa#Annotation> ;
+        <http://www.w3.org/ns/oa#hasBody>  <https://iiif-cloud.princeton.edu/iiif/2/1b%2Ff9%2F34%2F1bf9340e6caf4bf0b6701364f785fd88%2Fintermediate_file/full/1000,/0/default.jpg> ;
+        <http://www.w3.org/ns/oa#hasTarget>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/1c6028da-a6f1-4e69-8424-94f6a6566c95> ;
+        <http://www.w3.org/ns/oa#motivatedBy>  <http://iiif.io/api/presentation/2#painting> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/1ec6568f-d254-4de7-985f-f31edf67a53c>
+        a       <http://www.w3.org/ns/oa#Annotation> ;
+        <http://www.w3.org/ns/oa#hasBody>  <https://iiif-cloud.princeton.edu/iiif/2/aa%2F93%2Ff3%2Faa93f32c196c4e75a3d2f2ddc4f8e048%2Fintermediate_file/full/1000,/0/default.jpg> ;
+        <http://www.w3.org/ns/oa#hasTarget>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/1ec6568f-d254-4de7-985f-f31edf67a53c> ;
+        <http://www.w3.org/ns/oa#motivatedBy>  <http://iiif.io/api/presentation/2#painting> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/26d6a58b-f68e-4848-952d-b97a239a4cef>
+        a       <http://www.w3.org/ns/oa#Annotation> ;
+        <http://www.w3.org/ns/oa#hasBody>  <https://iiif-cloud.princeton.edu/iiif/2/b3%2F56%2F1a%2Fb3561af239f6429e951c993fb67cfc87%2Fintermediate_file/full/1000,/0/default.jpg> ;
+        <http://www.w3.org/ns/oa#hasTarget>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/26d6a58b-f68e-4848-952d-b97a239a4cef> ;
+        <http://www.w3.org/ns/oa#motivatedBy>  <http://iiif.io/api/presentation/2#painting> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/28445052-12bf-432d-a040-bbc96ce02a7b>
+        a       <http://www.w3.org/ns/oa#Annotation> ;
+        <http://www.w3.org/ns/oa#hasBody>  <https://iiif-cloud.princeton.edu/iiif/2/04%2Feb%2F1c%2F04eb1c18b96e4c489751abc248816588%2Fintermediate_file/full/1000,/0/default.jpg> ;
+        <http://www.w3.org/ns/oa#hasTarget>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/28445052-12bf-432d-a040-bbc96ce02a7b> ;
+        <http://www.w3.org/ns/oa#motivatedBy>  <http://iiif.io/api/presentation/2#painting> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/2ae6db12-575c-4708-a8a9-8b8408c171b7>
+        a       <http://www.w3.org/ns/oa#Annotation> ;
+        <http://www.w3.org/ns/oa#hasBody>  <https://iiif-cloud.princeton.edu/iiif/2/33%2F4f%2F82%2F334f828b1c7f44ecb18c7c0d55fec740%2Fintermediate_file/full/1000,/0/default.jpg> ;
+        <http://www.w3.org/ns/oa#hasTarget>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/2ae6db12-575c-4708-a8a9-8b8408c171b7> ;
+        <http://www.w3.org/ns/oa#motivatedBy>  <http://iiif.io/api/presentation/2#painting> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/496c6a41-f304-4633-a50e-72810da63c17>
+        a       <http://www.w3.org/ns/oa#Annotation> ;
+        <http://www.w3.org/ns/oa#hasBody>  <https://iiif-cloud.princeton.edu/iiif/2/f5%2F4c%2F50%2Ff54c50c38bbb489aad3646fd2c2ebe2d%2Fintermediate_file/full/1000,/0/default.jpg> ;
+        <http://www.w3.org/ns/oa#hasTarget>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/496c6a41-f304-4633-a50e-72810da63c17> ;
+        <http://www.w3.org/ns/oa#motivatedBy>  <http://iiif.io/api/presentation/2#painting> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/4fd565fb-3ef7-42a0-bea1-661d25c867bd>
+        a       <http://www.w3.org/ns/oa#Annotation> ;
+        <http://www.w3.org/ns/oa#hasBody>  <https://iiif-cloud.princeton.edu/iiif/2/d8%2F35%2Ffb%2Fd835fb8ad805442a9d7eb5374467f2e7%2Fintermediate_file/full/1000,/0/default.jpg> ;
+        <http://www.w3.org/ns/oa#hasTarget>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/4fd565fb-3ef7-42a0-bea1-661d25c867bd> ;
+        <http://www.w3.org/ns/oa#motivatedBy>  <http://iiif.io/api/presentation/2#painting> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/50c3d206-8f32-4ef4-9ac3-2c3dd717c3f3>
+        a       <http://www.w3.org/ns/oa#Annotation> ;
+        <http://www.w3.org/ns/oa#hasBody>  <https://iiif-cloud.princeton.edu/iiif/2/66%2F1c%2F0a%2F661c0a220e04494d83ca4518bd6fff6e%2Fintermediate_file/full/1000,/0/default.jpg> ;
+        <http://www.w3.org/ns/oa#hasTarget>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/50c3d206-8f32-4ef4-9ac3-2c3dd717c3f3> ;
+        <http://www.w3.org/ns/oa#motivatedBy>  <http://iiif.io/api/presentation/2#painting> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/58a6ff35-567c-4b32-9831-06a288bacf3a>
+        a       <http://www.w3.org/ns/oa#Annotation> ;
+        <http://www.w3.org/ns/oa#hasBody>  <https://iiif-cloud.princeton.edu/iiif/2/91%2Fde%2F1d%2F91de1dab5b31411d9a8ba19f077f7ba7%2Fintermediate_file/full/1000,/0/default.jpg> ;
+        <http://www.w3.org/ns/oa#hasTarget>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/58a6ff35-567c-4b32-9831-06a288bacf3a> ;
+        <http://www.w3.org/ns/oa#motivatedBy>  <http://iiif.io/api/presentation/2#painting> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/65df03ce-46c7-47ce-89c6-1c17bf492f4d>
+        a       <http://www.w3.org/ns/oa#Annotation> ;
+        <http://www.w3.org/ns/oa#hasBody>  <https://iiif-cloud.princeton.edu/iiif/2/8d%2F77%2Fcd%2F8d77cd1ae73c485ba7c02494077062a6%2Fintermediate_file/full/1000,/0/default.jpg> ;
+        <http://www.w3.org/ns/oa#hasTarget>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/65df03ce-46c7-47ce-89c6-1c17bf492f4d> ;
+        <http://www.w3.org/ns/oa#motivatedBy>  <http://iiif.io/api/presentation/2#painting> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/70c4e5a3-ffe2-444a-848a-63766289f78f>
+        a       <http://www.w3.org/ns/oa#Annotation> ;
+        <http://www.w3.org/ns/oa#hasBody>  <https://iiif-cloud.princeton.edu/iiif/2/5b%2Fd1%2F7b%2F5bd17b37c5df46aaa5b355148c9002af%2Fintermediate_file/full/1000,/0/default.jpg> ;
+        <http://www.w3.org/ns/oa#hasTarget>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/70c4e5a3-ffe2-444a-848a-63766289f78f> ;
+        <http://www.w3.org/ns/oa#motivatedBy>  <http://iiif.io/api/presentation/2#painting> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/80bd4131-f68e-4b23-b039-06455a53f747>
+        a       <http://www.w3.org/ns/oa#Annotation> ;
+        <http://www.w3.org/ns/oa#hasBody>  <https://iiif-cloud.princeton.edu/iiif/2/c1%2F9e%2F6a%2Fc19e6a45f82d442881c2f56acb86ad24%2Fintermediate_file/full/1000,/0/default.jpg> ;
+        <http://www.w3.org/ns/oa#hasTarget>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/80bd4131-f68e-4b23-b039-06455a53f747> ;
+        <http://www.w3.org/ns/oa#motivatedBy>  <http://iiif.io/api/presentation/2#painting> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/8a384bbe-899f-4982-88ec-bbb3d7eeca24>
+        a       <http://www.w3.org/ns/oa#Annotation> ;
+        <http://www.w3.org/ns/oa#hasBody>  <https://iiif-cloud.princeton.edu/iiif/2/4e%2F04%2F7b%2F4e047bda2b57478c89a6e523d35809eb%2Fintermediate_file/full/1000,/0/default.jpg> ;
+        <http://www.w3.org/ns/oa#hasTarget>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/8a384bbe-899f-4982-88ec-bbb3d7eeca24> ;
+        <http://www.w3.org/ns/oa#motivatedBy>  <http://iiif.io/api/presentation/2#painting> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/8af67641-f241-461c-8361-3090cfd8ff53>
+        a       <http://www.w3.org/ns/oa#Annotation> ;
+        <http://www.w3.org/ns/oa#hasBody>  <https://iiif-cloud.princeton.edu/iiif/2/1c%2F20%2F9b%2F1c209b6167a34461b7ee137ec999588e%2Fintermediate_file/full/1000,/0/default.jpg> ;
+        <http://www.w3.org/ns/oa#hasTarget>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/8af67641-f241-461c-8361-3090cfd8ff53> ;
+        <http://www.w3.org/ns/oa#motivatedBy>  <http://iiif.io/api/presentation/2#painting> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/8f580f14-1f15-4402-978d-47aa15b99dcc>
+        a       <http://www.w3.org/ns/oa#Annotation> ;
+        <http://www.w3.org/ns/oa#hasBody>  <https://iiif-cloud.princeton.edu/iiif/2/3e%2F73%2F07%2F3e7307ab0107428e9559cb3ee4fb1def%2Fintermediate_file/full/1000,/0/default.jpg> ;
+        <http://www.w3.org/ns/oa#hasTarget>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/8f580f14-1f15-4402-978d-47aa15b99dcc> ;
+        <http://www.w3.org/ns/oa#motivatedBy>  <http://iiif.io/api/presentation/2#painting> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/9b8d3638-fb4c-41b7-b84c-f90d41a38feb>
+        a       <http://www.w3.org/ns/oa#Annotation> ;
+        <http://www.w3.org/ns/oa#hasBody>  <https://iiif-cloud.princeton.edu/iiif/2/9d%2F50%2F9a%2F9d509abf80ed4021a22f13b03f509bba%2Fintermediate_file/full/1000,/0/default.jpg> ;
+        <http://www.w3.org/ns/oa#hasTarget>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/9b8d3638-fb4c-41b7-b84c-f90d41a38feb> ;
+        <http://www.w3.org/ns/oa#motivatedBy>  <http://iiif.io/api/presentation/2#painting> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/9bcd02e7-55ab-46eb-b633-40d367ccd5e8>
+        a       <http://www.w3.org/ns/oa#Annotation> ;
+        <http://www.w3.org/ns/oa#hasBody>  <https://iiif-cloud.princeton.edu/iiif/2/de%2F06%2F24%2Fde06246aea30434a8befab417d49a720%2Fintermediate_file/full/1000,/0/default.jpg> ;
+        <http://www.w3.org/ns/oa#hasTarget>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/9bcd02e7-55ab-46eb-b633-40d367ccd5e8> ;
+        <http://www.w3.org/ns/oa#motivatedBy>  <http://iiif.io/api/presentation/2#painting> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/9e880d69-731f-4d72-a4dd-3c2588492cfd>
+        a       <http://www.w3.org/ns/oa#Annotation> ;
+        <http://www.w3.org/ns/oa#hasBody>  <https://iiif-cloud.princeton.edu/iiif/2/3a%2Fb6%2Fe2%2F3ab6e2d72c31468297099e7982e5a40b%2Fintermediate_file/full/1000,/0/default.jpg> ;
+        <http://www.w3.org/ns/oa#hasTarget>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/9e880d69-731f-4d72-a4dd-3c2588492cfd> ;
+        <http://www.w3.org/ns/oa#motivatedBy>  <http://iiif.io/api/presentation/2#painting> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/a3951193-27b2-4e06-a690-ebb9c85453c8>
+        a       <http://www.w3.org/ns/oa#Annotation> ;
+        <http://www.w3.org/ns/oa#hasBody>  <https://iiif-cloud.princeton.edu/iiif/2/ac%2Fd9%2Fc2%2Facd9c20664854f188c4f5341d2d7bb72%2Fintermediate_file/full/1000,/0/default.jpg> ;
+        <http://www.w3.org/ns/oa#hasTarget>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/a3951193-27b2-4e06-a690-ebb9c85453c8> ;
+        <http://www.w3.org/ns/oa#motivatedBy>  <http://iiif.io/api/presentation/2#painting> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/d3f6a3f2-5260-4c55-aa78-c1e8af1c506d>
+        a       <http://www.w3.org/ns/oa#Annotation> ;
+        <http://www.w3.org/ns/oa#hasBody>  <https://iiif-cloud.princeton.edu/iiif/2/38%2Fbc%2F30%2F38bc3035723943c6a3653b2beea57ebd%2Fintermediate_file/full/1000,/0/default.jpg> ;
+        <http://www.w3.org/ns/oa#hasTarget>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/d3f6a3f2-5260-4c55-aa78-c1e8af1c506d> ;
+        <http://www.w3.org/ns/oa#motivatedBy>  <http://iiif.io/api/presentation/2#painting> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/d45e3cdc-f2e7-45b2-842e-06f6e7c60554>
+        a       <http://www.w3.org/ns/oa#Annotation> ;
+        <http://www.w3.org/ns/oa#hasBody>  <https://iiif-cloud.princeton.edu/iiif/2/9f%2F5a%2F76%2F9f5a76fc5f2b417988dbc17c4f8c47c3%2Fintermediate_file/full/1000,/0/default.jpg> ;
+        <http://www.w3.org/ns/oa#hasTarget>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/d45e3cdc-f2e7-45b2-842e-06f6e7c60554> ;
+        <http://www.w3.org/ns/oa#motivatedBy>  <http://iiif.io/api/presentation/2#painting> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/image/fe61ac61-faa5-4aea-8748-9e6dbb99d2b1>
+        a       <http://www.w3.org/ns/oa#Annotation> ;
+        <http://www.w3.org/ns/oa#hasBody>  <https://iiif-cloud.princeton.edu/iiif/2/96%2F94%2F21%2F969421546fa54aaebc86459ec86507c9%2Fintermediate_file/full/1000,/0/default.jpg> ;
+        <http://www.w3.org/ns/oa#hasTarget>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/fe61ac61-faa5-4aea-8748-9e6dbb99d2b1> ;
+        <http://www.w3.org/ns/oa#motivatedBy>  <http://iiif.io/api/presentation/2#painting> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/range/r326547cc-3366-48cc-aa82-883a7f03eb4c>
+        a       <http://iiif.io/api/presentation/2#Range> ;
+        <http://iiif.io/api/presentation/2#hasCanvases>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://iiif.io/api/presentation/2#hasRanges>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://iiif.io/api/presentation/2#viewingHint>  <http://iiif.io/api/presentation/2#topHint> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Logical" .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/sequence/normal>
+        a       <http://iiif.io/api/presentation/2#Sequence> ;
+        <http://iiif.io/api/presentation/2#hasCanvases>  _:b42 .
+
+_:b42   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/2ae6db12-575c-4708-a8a9-8b8408c171b7> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b43 .
+
+_:b43   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/9b8d3638-fb4c-41b7-b84c-f90d41a38feb> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b44 .
+
+_:b44   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/140f97b6-8784-488e-aef0-673408c62b56> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b45 .
+
+_:b45   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/9e880d69-731f-4d72-a4dd-3c2588492cfd> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b46 .
+
+_:b46   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/50c3d206-8f32-4ef4-9ac3-2c3dd717c3f3> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b47 .
+
+_:b47   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/fe61ac61-faa5-4aea-8748-9e6dbb99d2b1> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b48 .
+
+_:b48   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/a3951193-27b2-4e06-a690-ebb9c85453c8> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b49 .
+
+_:b49   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/26d6a58b-f68e-4848-952d-b97a239a4cef> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b50 .
+
+_:b50   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/1c6028da-a6f1-4e69-8424-94f6a6566c95> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b51 .
+
+_:b51   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/496c6a41-f304-4633-a50e-72810da63c17> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b52 .
+
+_:b52   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/8f580f14-1f15-4402-978d-47aa15b99dcc> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b53 .
+
+_:b53   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/1ec6568f-d254-4de7-985f-f31edf67a53c> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b54 .
+
+_:b54   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/8af67641-f241-461c-8361-3090cfd8ff53> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b55 .
+
+_:b55   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/d3f6a3f2-5260-4c55-aa78-c1e8af1c506d> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b56 .
+
+_:b56   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/58a6ff35-567c-4b32-9831-06a288bacf3a> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b57 .
+
+_:b57   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/4fd565fb-3ef7-42a0-bea1-661d25c867bd> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b58 .
+
+_:b58   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/8a384bbe-899f-4982-88ec-bbb3d7eeca24> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b59 .
+
+_:b59   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/0d52476e-098e-4022-97af-4a70320fa4ca> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b60 .
+
+_:b60   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/65df03ce-46c7-47ce-89c6-1c17bf492f4d> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b61 .
+
+_:b61   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/28445052-12bf-432d-a040-bbc96ce02a7b> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b62 .
+
+_:b62   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/80bd4131-f68e-4b23-b039-06455a53f747> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b63 .
+
+_:b63   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/70c4e5a3-ffe2-444a-848a-63766289f78f> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b64 .
+
+_:b64   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/d45e3cdc-f2e7-45b2-842e-06f6e7c60554> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  _:b65 .
+
+_:b65   <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/9bcd02e7-55ab-46eb-b633-40d367ccd5e8> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<https://figgy.princeton.edu/concern/scanned_resources/a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/sequence/normal>
+        <http://iiif.io/api/presentation/2#viewingHint>  <http://iiif.io/api/presentation/2#individualsHint> ;
+        <http://purl.org/dc/terms/hasFormat>  <https://figgy.princeton.edu/catalog/a3b5a622-8608-4a05-91cb-bc3840a44ef9/pdf> .
+
+<https://figgy.princeton.edu/downloads/0d52476e-098e-4022-97af-4a70320fa4ca/file/b603aede-e8b0-4640-82fd-5e5270a1b019>
+        <http://purl.org/dc/elements/1.1/format>  "image/tiff" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download the original file" .
+
+<https://figgy.princeton.edu/downloads/140f97b6-8784-488e-aef0-673408c62b56/file/dba20852-29d7-4f77-ba3c-0a6351b3e1f6>
+        <http://purl.org/dc/elements/1.1/format>  "image/tiff" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download the original file" .
+
+<https://figgy.princeton.edu/downloads/1c6028da-a6f1-4e69-8424-94f6a6566c95/file/6588d878-4f16-420d-9e83-61bb68b005a2>
+        <http://purl.org/dc/elements/1.1/format>  "image/tiff" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download the original file" .
+
+<https://figgy.princeton.edu/downloads/1ec6568f-d254-4de7-985f-f31edf67a53c/file/71149208-e736-4b3e-ad32-e7562602fa22>
+        <http://purl.org/dc/elements/1.1/format>  "image/tiff" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download the original file" .
+
+<https://figgy.princeton.edu/downloads/26d6a58b-f68e-4848-952d-b97a239a4cef/file/ed1fa5bb-3d3f-4d97-8484-97203ee1063c>
+        <http://purl.org/dc/elements/1.1/format>  "image/tiff" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download the original file" .
+
+<https://figgy.princeton.edu/downloads/28445052-12bf-432d-a040-bbc96ce02a7b/file/36fd6ccc-06d4-4f69-9a6b-6a75338e095d>
+        <http://purl.org/dc/elements/1.1/format>  "image/tiff" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download the original file" .
+
+<https://figgy.princeton.edu/downloads/2ae6db12-575c-4708-a8a9-8b8408c171b7/file/5028e3a4-df6d-4527-b44e-db21a81324b9>
+        <http://purl.org/dc/elements/1.1/format>  "image/tiff" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download the original file" .
+
+<https://figgy.princeton.edu/downloads/496c6a41-f304-4633-a50e-72810da63c17/file/7e573bc5-c88e-4d22-85a2-d5b029021618>
+        <http://purl.org/dc/elements/1.1/format>  "image/tiff" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download the original file" .
+
+<https://figgy.princeton.edu/downloads/4fd565fb-3ef7-42a0-bea1-661d25c867bd/file/44960985-252a-42f4-a7f4-35abddd500c7>
+        <http://purl.org/dc/elements/1.1/format>  "image/tiff" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download the original file" .
+
+<https://figgy.princeton.edu/downloads/50c3d206-8f32-4ef4-9ac3-2c3dd717c3f3/file/16255a57-4bf7-4130-83b5-2ad0218606a8>
+        <http://purl.org/dc/elements/1.1/format>  "image/tiff" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download the original file" .
+
+<https://figgy.princeton.edu/downloads/58a6ff35-567c-4b32-9831-06a288bacf3a/file/a7ec1cb7-7c82-43d9-b3dd-ef01150ef724>
+        <http://purl.org/dc/elements/1.1/format>  "image/tiff" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download the original file" .
+
+<https://figgy.princeton.edu/downloads/65df03ce-46c7-47ce-89c6-1c17bf492f4d/file/2febd703-5f5d-4470-adce-765c08c4013f>
+        <http://purl.org/dc/elements/1.1/format>  "image/tiff" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download the original file" .
+
+<https://figgy.princeton.edu/downloads/70c4e5a3-ffe2-444a-848a-63766289f78f/file/28097751-8a51-44b6-b1df-a08ec3302432>
+        <http://purl.org/dc/elements/1.1/format>  "image/tiff" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download the original file" .
+
+<https://figgy.princeton.edu/downloads/80bd4131-f68e-4b23-b039-06455a53f747/file/e0643a4f-72cd-485d-bec1-f2822bfa8f9d>
+        <http://purl.org/dc/elements/1.1/format>  "image/tiff" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download the original file" .
+
+<https://figgy.princeton.edu/downloads/8a384bbe-899f-4982-88ec-bbb3d7eeca24/file/1b2a3506-230f-4c17-8194-e67c1b051030>
+        <http://purl.org/dc/elements/1.1/format>  "image/tiff" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download the original file" .
+
+<https://figgy.princeton.edu/downloads/8af67641-f241-461c-8361-3090cfd8ff53/file/c9513b09-df26-4d70-97d9-e99cb83a71bf>
+        <http://purl.org/dc/elements/1.1/format>  "image/tiff" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download the original file" .
+
+<https://figgy.princeton.edu/downloads/8f580f14-1f15-4402-978d-47aa15b99dcc/file/7bb42c98-6b28-498e-b6f8-c53470ced981>
+        <http://purl.org/dc/elements/1.1/format>  "image/tiff" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download the original file" .
+
+<https://figgy.princeton.edu/downloads/9b8d3638-fb4c-41b7-b84c-f90d41a38feb/file/f6a845d8-9208-4e03-bac1-c4f3537224a9>
+        <http://purl.org/dc/elements/1.1/format>  "image/tiff" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download the original file" .
+
+<https://figgy.princeton.edu/downloads/9bcd02e7-55ab-46eb-b633-40d367ccd5e8/file/1a96f923-999e-4ed5-b593-6e9e40ba8d43>
+        <http://purl.org/dc/elements/1.1/format>  "image/tiff" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download the original file" .
+
+<https://figgy.princeton.edu/downloads/9e880d69-731f-4d72-a4dd-3c2588492cfd/file/d09f4cf4-ef7d-4894-b476-d71150d3fca7>
+        <http://purl.org/dc/elements/1.1/format>  "image/tiff" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download the original file" .
+
+<https://figgy.princeton.edu/downloads/a3951193-27b2-4e06-a690-ebb9c85453c8/file/0872f9be-61bb-4774-ba64-f665852c234c>
+        <http://purl.org/dc/elements/1.1/format>  "image/tiff" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download the original file" .
+
+<https://figgy.princeton.edu/downloads/d3f6a3f2-5260-4c55-aa78-c1e8af1c506d/file/aefeebb6-e3a7-4a66-a54a-6004469c627d>
+        <http://purl.org/dc/elements/1.1/format>  "image/tiff" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download the original file" .
+
+<https://figgy.princeton.edu/downloads/d45e3cdc-f2e7-45b2-842e-06f6e7c60554/file/1f81443f-b193-4c05-8867-d082c370eaff>
+        <http://purl.org/dc/elements/1.1/format>  "image/tiff" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download the original file" .
+
+<https://figgy.princeton.edu/downloads/fe61ac61-faa5-4aea-8748-9e6dbb99d2b1/file/c109ab3a-881f-4d5e-abb5-89fcea24d7ae>
+        <http://purl.org/dc/elements/1.1/format>  "image/tiff" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Download the original file" .
+
+<https://findingaids.princeton.edu/catalog/MC076_c00003.xml>
+        <http://purl.org/dc/elements/1.1/format>  "text/xml" .
+
+<https://iiif-cloud.princeton.edu/iiif/2/04%2Feb%2F1c%2F04eb1c18b96e4c489751abc248816588%2Fintermediate_file>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/image/2/level2.json> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/04%2Feb%2F1c%2F04eb1c18b96e4c489751abc248816588%2Fintermediate_file/full/1000,/0/default.jpg>
+        a       <http://purl.org/dc/dcmitype/Image> ;
+        <http://purl.org/dc/elements/1.1/format>  "image/jpeg" ;
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/04%2Feb%2F1c%2F04eb1c18b96e4c489751abc248816588%2Fintermediate_file> ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4717 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3687 .
+
+<https://iiif-cloud.princeton.edu/iiif/2/1b%2Ff9%2F34%2F1bf9340e6caf4bf0b6701364f785fd88%2Fintermediate_file>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/image/2/level2.json> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/1b%2Ff9%2F34%2F1bf9340e6caf4bf0b6701364f785fd88%2Fintermediate_file/full/1000,/0/default.jpg>
+        a       <http://purl.org/dc/dcmitype/Image> ;
+        <http://purl.org/dc/elements/1.1/format>  "image/jpeg" ;
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/1b%2Ff9%2F34%2F1bf9340e6caf4bf0b6701364f785fd88%2Fintermediate_file> ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4709 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3686 .
+
+<https://iiif-cloud.princeton.edu/iiif/2/1c%2F20%2F9b%2F1c209b6167a34461b7ee137ec999588e%2Fintermediate_file>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/image/2/level2.json> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/1c%2F20%2F9b%2F1c209b6167a34461b7ee137ec999588e%2Fintermediate_file/full/1000,/0/default.jpg>
+        a       <http://purl.org/dc/dcmitype/Image> ;
+        <http://purl.org/dc/elements/1.1/format>  "image/jpeg" ;
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/1c%2F20%2F9b%2F1c209b6167a34461b7ee137ec999588e%2Fintermediate_file> ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4707 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3689 .
+
+<https://iiif-cloud.princeton.edu/iiif/2/33%2F4f%2F82%2F334f828b1c7f44ecb18c7c0d55fec740%2Fintermediate_file>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/image/2/level2.json> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/33%2F4f%2F82%2F334f828b1c7f44ecb18c7c0d55fec740%2Fintermediate_file/full/!200,150/0/default.jpg>
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/33%2F4f%2F82%2F334f828b1c7f44ecb18c7c0d55fec740%2Fintermediate_file> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/33%2F4f%2F82%2F334f828b1c7f44ecb18c7c0d55fec740%2Fintermediate_file/full/1000,/0/default.jpg>
+        a       <http://purl.org/dc/dcmitype/Image> ;
+        <http://purl.org/dc/elements/1.1/format>  "image/jpeg" ;
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/33%2F4f%2F82%2F334f828b1c7f44ecb18c7c0d55fec740%2Fintermediate_file> ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4700 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3677 .
+
+<https://iiif-cloud.princeton.edu/iiif/2/38%2Fbc%2F30%2F38bc3035723943c6a3653b2beea57ebd%2Fintermediate_file>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/image/2/level2.json> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/38%2Fbc%2F30%2F38bc3035723943c6a3653b2beea57ebd%2Fintermediate_file/full/1000,/0/default.jpg>
+        a       <http://purl.org/dc/dcmitype/Image> ;
+        <http://purl.org/dc/elements/1.1/format>  "image/jpeg" ;
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/38%2Fbc%2F30%2F38bc3035723943c6a3653b2beea57ebd%2Fintermediate_file> ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4714 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3685 .
+
+<https://iiif-cloud.princeton.edu/iiif/2/3a%2Fb6%2Fe2%2F3ab6e2d72c31468297099e7982e5a40b%2Fintermediate_file>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/image/2/level2.json> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/3a%2Fb6%2Fe2%2F3ab6e2d72c31468297099e7982e5a40b%2Fintermediate_file/full/1000,/0/default.jpg>
+        a       <http://purl.org/dc/dcmitype/Image> ;
+        <http://purl.org/dc/elements/1.1/format>  "image/jpeg" ;
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/3a%2Fb6%2Fe2%2F3ab6e2d72c31468297099e7982e5a40b%2Fintermediate_file> ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4717 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3690 .
+
+<https://iiif-cloud.princeton.edu/iiif/2/3e%2F73%2F07%2F3e7307ab0107428e9559cb3ee4fb1def%2Fintermediate_file>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/image/2/level2.json> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/3e%2F73%2F07%2F3e7307ab0107428e9559cb3ee4fb1def%2Fintermediate_file/full/1000,/0/default.jpg>
+        a       <http://purl.org/dc/dcmitype/Image> ;
+        <http://purl.org/dc/elements/1.1/format>  "image/jpeg" ;
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/3e%2F73%2F07%2F3e7307ab0107428e9559cb3ee4fb1def%2Fintermediate_file> ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4711 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3680 .
+
+<https://iiif-cloud.princeton.edu/iiif/2/4e%2F04%2F7b%2F4e047bda2b57478c89a6e523d35809eb%2Fintermediate_file>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/image/2/level2.json> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/4e%2F04%2F7b%2F4e047bda2b57478c89a6e523d35809eb%2Fintermediate_file/full/1000,/0/default.jpg>
+        a       <http://purl.org/dc/dcmitype/Image> ;
+        <http://purl.org/dc/elements/1.1/format>  "image/jpeg" ;
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/4e%2F04%2F7b%2F4e047bda2b57478c89a6e523d35809eb%2Fintermediate_file> ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4703 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3689 .
+
+<https://iiif-cloud.princeton.edu/iiif/2/5b%2Fd1%2F7b%2F5bd17b37c5df46aaa5b355148c9002af%2Fintermediate_file>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/image/2/level2.json> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/5b%2Fd1%2F7b%2F5bd17b37c5df46aaa5b355148c9002af%2Fintermediate_file/full/1000,/0/default.jpg>
+        a       <http://purl.org/dc/dcmitype/Image> ;
+        <http://purl.org/dc/elements/1.1/format>  "image/jpeg" ;
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/5b%2Fd1%2F7b%2F5bd17b37c5df46aaa5b355148c9002af%2Fintermediate_file> ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4707 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3685 .
+
+<https://iiif-cloud.princeton.edu/iiif/2/66%2F1c%2F0a%2F661c0a220e04494d83ca4518bd6fff6e%2Fintermediate_file>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/image/2/level2.json> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/66%2F1c%2F0a%2F661c0a220e04494d83ca4518bd6fff6e%2Fintermediate_file/full/1000,/0/default.jpg>
+        a       <http://purl.org/dc/dcmitype/Image> ;
+        <http://purl.org/dc/elements/1.1/format>  "image/jpeg" ;
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/66%2F1c%2F0a%2F661c0a220e04494d83ca4518bd6fff6e%2Fintermediate_file> ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4711 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3680 .
+
+<https://iiif-cloud.princeton.edu/iiif/2/8d%2F77%2Fcd%2F8d77cd1ae73c485ba7c02494077062a6%2Fintermediate_file>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/image/2/level2.json> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/8d%2F77%2Fcd%2F8d77cd1ae73c485ba7c02494077062a6%2Fintermediate_file/full/1000,/0/default.jpg>
+        a       <http://purl.org/dc/dcmitype/Image> ;
+        <http://purl.org/dc/elements/1.1/format>  "image/jpeg" ;
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/8d%2F77%2Fcd%2F8d77cd1ae73c485ba7c02494077062a6%2Fintermediate_file> ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4708 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3687 .
+
+<https://iiif-cloud.princeton.edu/iiif/2/91%2Fde%2F1d%2F91de1dab5b31411d9a8ba19f077f7ba7%2Fintermediate_file>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/image/2/level2.json> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/91%2Fde%2F1d%2F91de1dab5b31411d9a8ba19f077f7ba7%2Fintermediate_file/full/1000,/0/default.jpg>
+        a       <http://purl.org/dc/dcmitype/Image> ;
+        <http://purl.org/dc/elements/1.1/format>  "image/jpeg" ;
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/91%2Fde%2F1d%2F91de1dab5b31411d9a8ba19f077f7ba7%2Fintermediate_file> ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4708 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3682 .
+
+<https://iiif-cloud.princeton.edu/iiif/2/96%2F94%2F21%2F969421546fa54aaebc86459ec86507c9%2Fintermediate_file>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/image/2/level2.json> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/96%2F94%2F21%2F969421546fa54aaebc86459ec86507c9%2Fintermediate_file/full/1000,/0/default.jpg>
+        a       <http://purl.org/dc/dcmitype/Image> ;
+        <http://purl.org/dc/elements/1.1/format>  "image/jpeg" ;
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/96%2F94%2F21%2F969421546fa54aaebc86459ec86507c9%2Fintermediate_file> ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4716 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3687 .
+
+<https://iiif-cloud.princeton.edu/iiif/2/9d%2F50%2F9a%2F9d509abf80ed4021a22f13b03f509bba%2Fintermediate_file>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/image/2/level2.json> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/9d%2F50%2F9a%2F9d509abf80ed4021a22f13b03f509bba%2Fintermediate_file/full/1000,/0/default.jpg>
+        a       <http://purl.org/dc/dcmitype/Image> ;
+        <http://purl.org/dc/elements/1.1/format>  "image/jpeg" ;
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/9d%2F50%2F9a%2F9d509abf80ed4021a22f13b03f509bba%2Fintermediate_file> ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4708 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3677 .
+
+<https://iiif-cloud.princeton.edu/iiif/2/9f%2F5a%2F76%2F9f5a76fc5f2b417988dbc17c4f8c47c3%2Fintermediate_file>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/image/2/level2.json> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/9f%2F5a%2F76%2F9f5a76fc5f2b417988dbc17c4f8c47c3%2Fintermediate_file/full/1000,/0/default.jpg>
+        a       <http://purl.org/dc/dcmitype/Image> ;
+        <http://purl.org/dc/elements/1.1/format>  "image/jpeg" ;
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/9f%2F5a%2F76%2F9f5a76fc5f2b417988dbc17c4f8c47c3%2Fintermediate_file> ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4702 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3686 .
+
+<https://iiif-cloud.princeton.edu/iiif/2/aa%2F93%2Ff3%2Faa93f32c196c4e75a3d2f2ddc4f8e048%2Fintermediate_file>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/image/2/level2.json> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/aa%2F93%2Ff3%2Faa93f32c196c4e75a3d2f2ddc4f8e048%2Fintermediate_file/full/1000,/0/default.jpg>
+        a       <http://purl.org/dc/dcmitype/Image> ;
+        <http://purl.org/dc/elements/1.1/format>  "image/jpeg" ;
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/aa%2F93%2Ff3%2Faa93f32c196c4e75a3d2f2ddc4f8e048%2Fintermediate_file> ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4712 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3687 .
+
+<https://iiif-cloud.princeton.edu/iiif/2/ac%2Fd9%2Fc2%2Facd9c20664854f188c4f5341d2d7bb72%2Fintermediate_file>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/image/2/level2.json> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/ac%2Fd9%2Fc2%2Facd9c20664854f188c4f5341d2d7bb72%2Fintermediate_file/full/1000,/0/default.jpg>
+        a       <http://purl.org/dc/dcmitype/Image> ;
+        <http://purl.org/dc/elements/1.1/format>  "image/jpeg" ;
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/ac%2Fd9%2Fc2%2Facd9c20664854f188c4f5341d2d7bb72%2Fintermediate_file> ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4708 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3686 .
+
+<https://iiif-cloud.princeton.edu/iiif/2/b3%2F56%2F1a%2Fb3561af239f6429e951c993fb67cfc87%2Fintermediate_file>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/image/2/level2.json> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/b3%2F56%2F1a%2Fb3561af239f6429e951c993fb67cfc87%2Fintermediate_file/full/1000,/0/default.jpg>
+        a       <http://purl.org/dc/dcmitype/Image> ;
+        <http://purl.org/dc/elements/1.1/format>  "image/jpeg" ;
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/b3%2F56%2F1a%2Fb3561af239f6429e951c993fb67cfc87%2Fintermediate_file> ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4713 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3689 .
+
+<https://iiif-cloud.princeton.edu/iiif/2/c1%2F9e%2F6a%2Fc19e6a45f82d442881c2f56acb86ad24%2Fintermediate_file>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/image/2/level2.json> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/c1%2F9e%2F6a%2Fc19e6a45f82d442881c2f56acb86ad24%2Fintermediate_file/full/1000,/0/default.jpg>
+        a       <http://purl.org/dc/dcmitype/Image> ;
+        <http://purl.org/dc/elements/1.1/format>  "image/jpeg" ;
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/c1%2F9e%2F6a%2Fc19e6a45f82d442881c2f56acb86ad24%2Fintermediate_file> ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4710 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3678 .
+
+<https://iiif-cloud.princeton.edu/iiif/2/c6%2F77%2Fa7%2Fc677a7657ebc43cabc2bd01bced300e6%2Fintermediate_file>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/image/2/level2.json> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/c6%2F77%2Fa7%2Fc677a7657ebc43cabc2bd01bced300e6%2Fintermediate_file/full/1000,/0/default.jpg>
+        a       <http://purl.org/dc/dcmitype/Image> ;
+        <http://purl.org/dc/elements/1.1/format>  "image/jpeg" ;
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/c6%2F77%2Fa7%2Fc677a7657ebc43cabc2bd01bced300e6%2Fintermediate_file> ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4718 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3687 .
+
+<https://iiif-cloud.princeton.edu/iiif/2/d8%2F35%2Ffb%2Fd835fb8ad805442a9d7eb5374467f2e7%2Fintermediate_file>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/image/2/level2.json> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/d8%2F35%2Ffb%2Fd835fb8ad805442a9d7eb5374467f2e7%2Fintermediate_file/full/1000,/0/default.jpg>
+        a       <http://purl.org/dc/dcmitype/Image> ;
+        <http://purl.org/dc/elements/1.1/format>  "image/jpeg" ;
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/d8%2F35%2Ffb%2Fd835fb8ad805442a9d7eb5374467f2e7%2Fintermediate_file> ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4714 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3691 .
+
+<https://iiif-cloud.princeton.edu/iiif/2/de%2F06%2F24%2Fde06246aea30434a8befab417d49a720%2Fintermediate_file>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/image/2/level2.json> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/de%2F06%2F24%2Fde06246aea30434a8befab417d49a720%2Fintermediate_file/full/1000,/0/default.jpg>
+        a       <http://purl.org/dc/dcmitype/Image> ;
+        <http://purl.org/dc/elements/1.1/format>  "image/jpeg" ;
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/de%2F06%2F24%2Fde06246aea30434a8befab417d49a720%2Fintermediate_file> ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4704 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3685 .
+
+<https://iiif-cloud.princeton.edu/iiif/2/f1%2F5a%2Fa3%2Ff15aa340a29046a08e8700fb54512eab%2Fintermediate_file>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/image/2/level2.json> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/f1%2F5a%2Fa3%2Ff15aa340a29046a08e8700fb54512eab%2Fintermediate_file/full/1000,/0/default.jpg>
+        a       <http://purl.org/dc/dcmitype/Image> ;
+        <http://purl.org/dc/elements/1.1/format>  "image/jpeg" ;
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/f1%2F5a%2Fa3%2Ff15aa340a29046a08e8700fb54512eab%2Fintermediate_file> ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4707 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3685 .
+
+<https://iiif-cloud.princeton.edu/iiif/2/f5%2F4c%2F50%2Ff54c50c38bbb489aad3646fd2c2ebe2d%2Fintermediate_file>
+        <http://usefulinc.com/ns/doap#implements>  <http://iiif.io/api/image/2/level2.json> .
+
+<https://iiif-cloud.princeton.edu/iiif/2/f5%2F4c%2F50%2Ff54c50c38bbb489aad3646fd2c2ebe2d%2Fintermediate_file/full/1000,/0/default.jpg>
+        a       <http://purl.org/dc/dcmitype/Image> ;
+        <http://purl.org/dc/elements/1.1/format>  "image/jpeg" ;
+        <http://rdfs.org/sioc/services#has_service>  <https://iiif-cloud.princeton.edu/iiif/2/f5%2F4c%2F50%2Ff54c50c38bbb489aad3646fd2c2ebe2d%2Fintermediate_file> ;
+        <http://www.w3.org/2003/12/exif/ns#height>  4715 ;
+        <http://www.w3.org/2003/12/exif/ns#width>  3688 .

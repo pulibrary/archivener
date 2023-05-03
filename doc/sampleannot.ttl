@@ -1,0 +1,12 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sc: <http://iiif.io/api/presentation/2#> .
+@prefix figgy: <https://figgy.princeton.edu/concern/scanned_resources/> .
+@prefix ocr: <https://figgy.princeton.edu/concern/ocr/> .
+@prefix annot: <https://figgy.princeton.edu/concern/annotation/> .
+
+annot:xyzzy a oa:Annotation ;
+            sc:motivation oa:linking ;
+            oa:hasTarget figgy:a3b5a622-8608-4a05-91cb-bc3840a44ef9/manifest/canvas/0d52476e-098e-4022-97af-4a70320fa4ca ;
+            oa:hasBody ocr:0d52476e-098e-4022-97af-4a70320fa4ca .
